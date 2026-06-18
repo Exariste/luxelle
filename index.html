@@ -2,48 +2,70 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>LUXELLE & FAIR | Luxury in Style, Excellence in Care</title>
-<meta name="description" content="Luxury Fashion, Beauty & Lifestyle">
-<link rel="icon" href="favicon.png">
+<meta name="description" content="Luxury Fashion, Beauty & Lifestyle by LUXELLE & FAIR">
+
+<!-- Open Graph -->
+<meta property="og:title" content="LUXELLE & FAIR">
+<meta property="og:description" content="Luxury in Style, Excellence in Care">
+<meta property="og:type" content="website">
+
 <link rel="stylesheet" href="style.css">
+<link rel="icon" href="favicon.png">
 </head>
+
 <body>
-<header class="nav">
-<div class="brand">
-<img src="./images/logo.png" alt="Logo">
-<div>
-<h1>LUXELLE & FAIR</h1>
-<p>Luxury in Style, Excellence in Care</p>
-</div>
-</div>
-<nav>
-<a href="#story">Our Story</a>
-<a href="#collections">Collections</a>
-<a href="#edit">The Edit</a>
-<a href="#contact">Contact</a>
-</nav>
-</header>
 
+<!-- HERO -->
 <section class="hero">
-<div class="glass">
-<h2>LUXELLE & FAIR</h2>
-<p>Curating Fashion, Beauty & Lifestyle Experiences for the Modern Connoisseur.</p>
-<a href="#collections">Discover Collection</a>
-</div>
+  <div class="overlay"></div>
+
+  <div class="hero-content">
+    <h1>LUXELLE & FAIR</h1>
+    <p>Luxury in Style, Excellence in Care</p>
+    <a href="#collection" class="btn">Explore Collection</a>
+  </div>
 </section>
 
-<section id="story"><h2>Where Luxury Meets Elegance</h2></section>
-<section id="collections">
-<div class="grid">
-<div>Fashion</div><div>Beauty</div><div>Accessories</div><div>Lifestyle</div>
-</div>
-</section>
-<section id="edit"><h2>The Edit</h2><p>The Art of Luxury Living</p></section>
+<!-- COLLECTION -->
+<section id="collection" class="section">
+  <h2>Featured Collection</h2>
 
-<footer id="contact">
-<p>info@exariste.com</p>
-<p>+880 1713-366224</p>
-<a href="https://wa.me/8801713366224">WhatsApp</a>
+  <div class="grid">
+    <div class="card"></div>
+    <div class="card"></div>
+    <div class="card"></div>
+  </div>
+</section>
+
+<!-- INSTAGRAM -->
+<section class="section dark">
+  <h2>Instagram</h2>
+  <div class="insta-grid">
+    <div></div><div></div><div></div><div></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section">
+  <h2>Inquiry</h2>
+
+  <form class="form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Email Address" required>
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit">Send Inquiry</button>
+  </form>
+
+  <a class="whatsapp" href="https://wa.me/8801713366224">Chat on WhatsApp</a>
+</section>
+
+<footer>
+  <p>© 2026 LUXELLE & FAIR | EXARISTE GROUP</p>
 </footer>
-</body></html>
+
+<script src="script.js"></script>
+</body>
+</html>
