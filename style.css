@@ -1,0 +1,13 @@
+
+html{scroll-behavior:smooth}
+body{margin:0;background:linear-gradient(135deg,#071B3A,#0A2A5A,#111);color:#fff;font-family:Arial,sans-serif}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:20px 40px;position:sticky;top:0;background:rgba(0,0,0,.4);backdrop-filter:blur(8px)}
+.brand{display:flex;align-items:center;gap:16px}.brand img{width:70px;height:70px;border-radius:50%}
+nav a{color:#D4AF37;text-decoration:none;margin-left:18px}
+.hero{height:85vh;display:flex;align-items:center;justify-content:center;text-align:center}
+.glass{padding:40px;border:1px solid rgba(212,175,55,.5);border-radius:24px;background:rgba(255,255,255,.05)}
+.glass a{display:inline-block;margin-top:20px;color:#D4AF37;border:1px solid #D4AF37;padding:12px 24px;text-decoration:none}
+section{padding:90px 10%}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:20px}
+.grid div{padding:60px;border:1px solid rgba(212,175,55,.4);border-radius:18px;text-align:center}
+footer{text-align:center;padding:70px;background:#071B3A}
