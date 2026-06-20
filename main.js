@@ -1,14 +1,12 @@
 /* LUXELLE & FAIR — Main JS */
 
-// Page Loader
+// Page Loader — hides as soon as page is ready
 window.addEventListener('load', () => {
-  setTimeout(() => {
-    const loader = document.getElementById('page-loader');
-    if (loader) {
-      loader.classList.add('hidden');
-      document.body.classList.remove('loading');
-    }
-  }, 2000);
+  const loader = document.getElementById('page-loader');
+  if (loader) {
+    loader.classList.add('hidden');
+    document.body.classList.remove('loading');
+  }
 });
 document.body.classList.add('loading');
 
